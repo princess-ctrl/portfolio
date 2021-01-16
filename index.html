@@ -1,0 +1,169 @@
+<DOCTYPE>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <!--Header bar-->
+  <header>
+    <div class="logo">
+   <img src="./images/logo.jpg">
+ </div>
+  	<div class="menu-toggle"></div>
+  	<nav>
+  		<ul>
+  			<li><a href="#index">Home</a></li>
+  			<li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+  			<li><a href="#contact">Contact</a></li>
+  		</ul>
+  	</nav>
+  	<div class="clearfix"></div>
+  </header>
+  <script  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	$(document).ready(function () {
+  		$('.menu-toggle').click(function(){
+  			$('.menu-toggle').toggleClass('active')
+  			$('nav').toggleClass('active')
+  		});
+  	});
+  </script>
+  <!--Header end-->
+
+  <!--Home Start-->
+  <section class="home">
+  	<div class="home_header">
+      <h2>Princess Tonayon</h2>
+      <p>Web Developer<strong> & </strong>Graphic Designer</p>
+  	</div>
+  </section>
+  <!--Home ends-->
+
+  <!--About Starts--->
+        
+  <section class="about" id="about">
+      <div class="aboutBx">
+        <img src="./images/profile.jpg">
+        <div class="aboutText">
+          <p>About Me</p>
+          <p>Web-developer & Graphic Designer</p>
+          <p>Hi! I am Princess Tonayon a Front-end developer and Graphic designer with 2+ years experience, I 
+          focus on creating great web experiences. Coding have been my passion since the days i started working with computers but i found myself into developement/design since 2018. I enjoy creating beautifully designed, intuitive and functional websites.</p>
+         <p>Within the past few years, I have worked for some of the best travelling agencies creating responsive front-end websites. I had great experience working with clients to create some award winning works. I'm currently a Freelance developer/designer looking forward to my next project and available to work on new project with You by clicking on the "Hire Me" button.</p>
+            <button><a href="mailto:princessonome2017@gmail.com">Hire Me</a></button>
+             <button><a href="princessresume.pdf">Download CV</a></button>
+        </div>
+      </div>
+  </section>
+  <!--ABOUT ENDS--->
+
+   <!--SKILLS STARTS----------->
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+          <div class="set">
+            <h3>Web Development & Design </h3>
+            <div class="List">
+              <label>Html</label>
+             <img src="./images/html.png">
+            </div>
+            <div class="List">
+              <label>CSS</label>
+              <img src="./images/css.png">
+            </div>
+            <div class="List">
+              <label>Javascript</label>
+              <img src="./images/js.png">
+            </div>
+            <div class="List">
+              <label>Adobe Illustrator</label>
+              <img src="./images/ai.png">
+            </div>
+            <div class="List">
+              <label>Adobe Photoshop</label>
+              <img src="./images/ap.png">
+            </div>
+          </div>
+
+          <div class="set">
+            <h3>FrameWork</h3>
+            <div class="List">
+              <label>Bootstrap</label>
+             <img src="./images/bootstrap.png">
+            </div>
+            <div class="List">
+              <label>jQuery</label>
+              <img src="./images/jquery.png">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--SKILLS ENDS---->
+  
+    <!--PROJECT START-------->
+    <section class="project" id="project">
+        <h2>Projects</h2>
+        <div class="project-content" >
+        <div class="project-box">
+              <h4>Javascript Calculator</h4>
+              <img src="./images/cal.png">
+              <p>This is a Fun side project i created for calculating using Javascript Programming Language. You can check out the project on my github link below.</p>
+              </div>
+        <div class="project-box">
+              <h4>To-Do List App</h4>
+              <img src="./images/todo.png">
+              <p>Another Fun side project i created Using Javascript Programming Language. It's a Todo List Application for listing out tasks to complete or things you need to do.</p>
+              </div>
+        <div class="project-box">
+              <h4>Web Logo</h4>
+              <img src="./images/logo.png">
+              <p>I designed a website logo using Adobe Photoshop Software. Working on this brought me great experience in graphics by using it tools to create awesome styles and designs.  </p>
+              </div>
+    </section>
+    <!--PROJECT END-------->
+
+    <!--CONTACT START-------->
+    <section id="contact">
+  <h1 class="section-header">CONTACT</h1>
+  <div class="contact-wrapper">
+      <div class="direct-contact-container">
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker"><span class="contact-text place">Lagos, Nigeria</span></i></li>
+          <li class="list-item"><i class="fa fa-phone"><span class="contact-text phone">(234) 8167-5092-299</span></i></li>
+          <li class="list-item"><i class="fa fa-envelope"><span class="contact-text gmail">princessonome2017@gmail.com</span></i></li>
+        </ul>
+        <hr>
+        <ul class="social-media-list">
+          <li><a href="http://linkedin.com/in/princess-tonayon-0a904219a" target="_blank" class="contact-icon">
+            <i class="fa fa-linkedin"></i></a>
+          </li>
+          <li><a href="http://twitter.com/@TonayonPrincess" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter"></i></a>
+          </li>
+          <li><a href="http://github.com/princess-ctrl/" target="_blank" class="contact-icon">
+            <i class="fa fa-github"></i></a>
+          </li>
+          <li><a href="https://instagram.com/code_diva_" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+        <hr>
+        <div class="copyright">&copy; Princess Tonayon 2021 All rights reserved.</div>
+      </div>
+  </div>
+</section> 
+  <!--CONTACT ENDS-------->
+
+  <!--BackToTop Scroll-------->
+
+ <a href="#" class="to-top"><i class="fa fa-chevron-up"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
